@@ -17,6 +17,9 @@ header {
         top: auto;
         right: 0.5rem;
         display: none;
+        @media screen and (max-width: 580px) {
+            display: inline-block;
+        }
     }
     ul {
         display: flex;
@@ -25,8 +28,12 @@ header {
         background-color: aqua;
         list-style: none;
         padding-right: 2rem;
+        @media screen and (max-width: 580px) {
+            display: none;
+        }
         a {
             text-decoration: none;
         }
+        
     }
   }

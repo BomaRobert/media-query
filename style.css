@@ -30,6 +30,12 @@ header .icon {
   display: none;
 }
 
+@media screen and (max-width: 580px) {
+  header .icon {
+    display: inline-block;
+  }
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,6 +47,12 @@ header ul {
   background-color: aqua;
   list-style: none;
   padding-right: 2rem;
+}
+
+@media screen and (max-width: 580px) {
+  header ul {
+    display: none;
+  }
 }
 
 header ul a {
